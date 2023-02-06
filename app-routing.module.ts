@@ -1,3 +1,4 @@
+import { GalleryDetailComponent } from './pages/gallery-detail/gallery-detail.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
@@ -11,6 +12,9 @@ const routes: Routes = [
   },
   {
     path: 'gallery', component: GalleryComponent
+  },
+  {
+    path:'gallery/:id', component: GalleryDetailComponent
   },
   {
     path:'contact', component:ContactComponent

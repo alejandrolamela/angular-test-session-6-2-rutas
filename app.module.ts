@@ -9,6 +9,7 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { NavigatorComponent } from './shared/components/navigator/navigator.component';
+import { GalleryDetailComponent } from './pages/gallery-detail/gallery-detail.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NavigatorComponent } from './shared/components/navigator/navigator.comp
     GalleryComponent,
     ContactComponent,
     FooterComponent,
-    NavigatorComponent
+    NavigatorComponent,
+    GalleryDetailComponent
   ],
   imports: [
     BrowserModule,
