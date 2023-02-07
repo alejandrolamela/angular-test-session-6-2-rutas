@@ -10,6 +10,8 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { NavigatorComponent } from './shared/components/navigator/navigator.component';
 import { GalleryDetailComponent } from './pages/gallery-detail/gallery-detail.component';
+import { MessageListComponent } from './shared/components/message-list/message-list.component';
+import { NewMessageComponent } from './shared/components/new-message/new-message.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { GalleryDetailComponent } from './pages/gallery-detail/gallery-detail.co
     ContactComponent,
     FooterComponent,
     NavigatorComponent,
-    GalleryDetailComponent
+    GalleryDetailComponent,
+    MessageListComponent,
+    NewMessageComponent
   ],
   imports: [
     BrowserModule,

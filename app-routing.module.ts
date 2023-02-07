@@ -1,3 +1,5 @@
+import { MessageListComponent } from './shared/components/message-list/message-list.component';
+import { NewMessageComponent } from './shared/components/new-message/new-message.component';
 import { GalleryDetailComponent } from './pages/gallery-detail/gallery-detail.component';
 import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
@@ -21,6 +23,12 @@ const routes: Routes = [
   },
   {
     path:'about', component:AboutComponent
+  },
+  {
+    path:'add', component:NewMessageComponent
+  },
+  {
+    path:'listado', component:MessageListComponent
   }
 ];
 
